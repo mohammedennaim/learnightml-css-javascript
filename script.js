@@ -25,6 +25,7 @@ $(document).ready(function(){
     $('.navbar').css('margin-top',60);
   });
   $('#times1').click(function(){
+    $('search').toggle();
     $('.navbar').css('margin-top',0);
   });
 });
@@ -32,11 +33,14 @@ $(document).ready(function(){
   $('.fa-bars').click(function(){
     $('.ul-block').toggle();
     $('.search').css('width',1180);
+    $('.navbar').css('width',510);
   });
   $('#times2').click(function(){
     $('.ul-block').toggle();
     $('.search').css('width',1349);
+    $('.navbar').css('width',849);
   });
+  
 });
 $(document).ready(function(){
   $('.fa-search').click(function(){
