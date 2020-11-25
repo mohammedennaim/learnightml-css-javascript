@@ -848,84 +848,9 @@ hr {
     opacity: 0.8;
     transform: rotate(1deg);
 }
-/*
-.after-img1 {
-    position: absolute;
-    left: 45%;
-    text-align: center;
-    top: 65px;
-    background: transparent;
-}
-
-.after-img1 h3 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.after-img1 p {
-    color: seashell;
-    margin-top: 5px;
-}
-.after-img1 .fa-expand-alt {
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-    background: none;
-}
-.after-img1 .disk1 {
-    position: absolute;
-    height: 40px; 
-    width: 40px; 
-    border: 2px solid #fff;
-    border-radius: 50%; 
-    margin-top: 13px;
-    margin-left: 35px;
-    cursor: pointer;
-    background-color: brown;
-}
-.after-img1 .disk1:hover, .fa-expand-alt:hover {
-    background-color: rgb(187, 181, 181);
-    z-index: -1;
-}
-.after-img1 .fa-search {
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-}
-.after-img1 .disk2 {
-    position: absolute;
-    height: 40px; 
-    width: 40px; 
-    border: 2px solid #fff;
-    border-radius: 50%; 
-    margin-top: 13px;
-    margin-left: 90px;
-}
-
-.after-img2 {
-    position: absolute;
-    left: 65%;
-    text-align: center;
-    top: 20em;
-    background: transparent;
-}
-/*
-.after-img3 {
-    position: absolute;
-}
-.after-img4 {
-    position: absolute;
-}
-.after-img5 {
-    position: absolute;
-}
-.after-img6 {
-    position: absolute;
-}*/
 .Pricing{
     position: relative;
+    text-align: center;
     top: 200vh;
 }
 .center3 {
@@ -959,6 +884,7 @@ hr {
 }
 .list-rect1 {
     position: relative;
+    text-align: center;
     left: 7%;
     width: 25vw;
     height: 90vh;
@@ -996,8 +922,8 @@ hr {
     height: 130px;
     border: 2px solid #fff;
     border-radius: 50%;
-    left: 0.97vw;
-    top: 2.1vh;
+    left: 13px;
+    top: 13px;
 }
 .list-rect1 .circle .disk p:nth-child(1) {
     position: absolute;
@@ -1024,6 +950,10 @@ hr {
 .list-rect1 ul li {
     margin-left: 15px;
     margin-top: 25px;
+}
+.list-rect1 ul li i {
+    position: absolute;
+    left: 50px;
 }
 .list-rect1 ul li .fa-check-circle {
     position: absolute;
@@ -1056,6 +986,7 @@ hr {
 }
 .list-rect2 {
     position: relative;
+    text-align: center;
     left: 12%;
     width: 25vw;
     height: 89vh;
@@ -1087,8 +1018,8 @@ hr {
     height: 130px;
     border: 2px solid #fff;
     border-radius: 50%;
-    left: 0.97vw;
-    top: 2.1vh;
+    left: 13px;
+    top: 13px;
 }
 .list-rect2 .circle .disk p:nth-child(1) {
     position: absolute;
@@ -1115,6 +1046,10 @@ hr {
 .list-rect2 ul li {
     margin-left: 15px;
     margin-top: 25px;
+}
+.list-rect2 ul li i {
+    position: absolute;
+    left: 50px;
 }
 .list-rect2 ul li .fa-check-circle {
     position: absolute;
@@ -1147,6 +1082,7 @@ hr {
 }
 .list-rect3 {
     position: relative;
+    text-align: center;
     left: 17%;
     width: 25vw;
     height: 90vh;
@@ -1177,8 +1113,8 @@ hr {
     height: 130px;
     border: 2px solid #fff;
     border-radius: 50%;
-    left: 0.97vw;
-    top: 2.1vh;
+    left: 13px;
+    top: 13px;
 }
 .list-rect3 .circle .disk p:nth-child(1) {
     position: absolute;
@@ -1205,6 +1141,10 @@ hr {
 .list-rect3 ul li {
     margin-left: 15px;
     margin-top: 25px;
+}
+.list-rect3 ul li i {
+    position: absolute;
+    left: 50px;
 }
 .list-rect3 ul li .fa-check-circle {
     position: absolute;
@@ -1235,12 +1175,13 @@ hr {
     transition: all .3s ease;
     background-color: rgb(187, 187, 187);
 }
+
 .Pricing .evanto {
     position: absolute;
     display: flex;
     list-style: none;
     top: 160vh;
-    width: 1309px;
+    width: 97%;
     height: 40vh;
     background-color: #fff;
 }
@@ -1264,12 +1205,14 @@ hr {
     width: 100%;
     height: 70vh;
     top: 109vh;
+    text-align: center;
 }
 .SUBSCRIBE img{
     position: absolute;
     width: 100%;
     z-index: -9;
     top: -36vh;
+    left: 0;
 }
 .SUBSCRIBE h2 {
     position: absolute;
