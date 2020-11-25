@@ -31,12 +31,10 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.fa-bars').click(function(){
     $('.ul-block').toggle();
-    $('.kolechi').css('margin-left',-190);
     $('.search').css('width',1180);
   });
   $('#times2').click(function(){
     $('.ul-block').toggle();
-    $('.kolechi').css('margin-left',0);
     $('.search').css('width',1349);
   });
 });

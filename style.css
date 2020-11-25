@@ -9,6 +9,9 @@ body {
 body.sticky{
     margin-left: -200px;
 }
+.kolechi {
+    position: relative;
+}
 .search {
     position: absolute;
     width: 100%;
@@ -124,7 +127,7 @@ nav div ul .fa-bars {
     position: fixed;
     display: none;
     text-align: center;
-    margin-left: 1159px;
+    right: 0;
     margin-top: 100vh;
     z-index: 999;
     line-height: 70px;
@@ -200,6 +203,7 @@ nav div ul .fa-bars {
         display: none;
     }
 }
+
 .side {
     position: relative;
     height: 100vh;
@@ -409,9 +413,8 @@ hr {
 }
 
 .next-about {
-    position: absolute;
-    margin-top: 740px;
-    margin-bottom: 15%;
+    position: relative;
+    top: 700px;
     margin-left: -30px;
 }
 .next-about .doc1{
@@ -484,22 +487,25 @@ hr {
 .ipsum {
     width: 93%;
 }
+.video {
+    position: relative;
+    margin-top: 82%;
+}
 .video a img {
     position: absolute;
     height: 300px;
-    margin-top: 84%;
     margin-left: -12.4%;
-    width: 1349px;
+    width: 1360px;
 }
 .center1 {
     position: absolute;
-    margin-top: 118%;
+    margin-top: 33%;
     width: 65%;
     margin-left: 14%;
 }
 .center1 h1 {
     position: absolute;
-    top: -150px;
+    top: -120px;
     margin-left: 250px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -509,18 +515,18 @@ hr {
     width: 13%;
     height: 3px;
     background: #ff9046;
-    top: 50px;
+    top: 80px;
 }
 .center1 p {
     position: absolute;
-    top: 60px;
+    top: 90px;
     margin-left: 90px;
     width: 80%;
 }
 .img {
     position: relative;
     display: flex;
-    margin-top: 136%;
+    margin-top: 139%;
     min-width: 100%;
     margin-left: -12.5%;
     overflow: hidden;
@@ -551,7 +557,7 @@ hr {
 .our-service {
     position: relative;
     margin-left: 10%;
-    margin-top: 4%;
+    margin-top: 3%;
     width: 90%;
 }
 .our-service h1 {
@@ -751,7 +757,7 @@ hr {
 }
 .PORTOFLIO {
     position: relative;
-    margin-top: 93%;
+    margin-top: 90%;
     width: 70%;
     align-items: center;
     justify-content: center;
@@ -1277,15 +1283,16 @@ hr {
 .SUBSCRIBE p {
     position: absolute;
     top: 35vh;
-    font-size: 19px;
+    font-size: 16px;
     left: 25%;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .SUBSCRIBE input {
     position: absolute;
     top: 50vh;
-    left: 20%;
-    width: 45vw;
+    left: 19%;
+    width: 46vw;
     height: 7vh;
     outline: none;
     color: rgb(235, 230, 230);
