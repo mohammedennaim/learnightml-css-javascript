@@ -308,6 +308,7 @@ nav ul .fa-bars {
         position: fixed;
         text-align: center;
         width: 100%;
+        z-index: 999;
     }
     .ul-block li:nth-child(2) {
         margin-top: 60px;
@@ -315,10 +316,8 @@ nav ul .fa-bars {
     .ul-block .fa-times{
         position: absolute;
         top: 0;
-        right: 5vw;
-    }
-    .navbar {
-        width: 100%;
+        right: 10vw;
+        z-index: 999;
     }
     .navbar img {
         position: absolute;
