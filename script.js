@@ -54,13 +54,12 @@ $(document).ready(function(){
     $('.search').toggle();
   });
 
-});$(document).ready(function(){
+});
+$(document).ready(function(){
   $('.fa-shopping-bag').click(function(){
       $('.main').toggle();
   });
-});
-
-  
+});  
   $(document).ready(function(){
     $('#para1').click(function(){
       $('.para-lorem1').toggle();

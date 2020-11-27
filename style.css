@@ -82,6 +82,7 @@ nav ul {
     display: flex;
     margin-top: 2px;
     left: 0;
+    height: 55px;
 }
 nav ul li {
     list-style: none;
@@ -273,8 +274,8 @@ nav ul .fa-bars {
 }
 .ul-block li {
     display: block;
-    margin-left: -40px;
-    
+    width: 100%;
+    margin-left: -20px;
 }
 .ul-block li a {
     color: #fff;
@@ -284,7 +285,7 @@ nav ul .fa-bars {
 .ul-block li:hover {
     border: 1px ridge;
     transition: all 0.3s ease;
-    width: 188px;
+    width: 100%;
     height: 70px;
     background-color: darkgrey;
 }
@@ -302,34 +303,36 @@ nav ul .fa-bars {
     opacity: .7;
 }
 @media (max-width: 990px) {
-    nav {
-        padding: 0 15px;
-        width: 100%;
-        height: 100vh;
-        background-color: #333;
+    .ul-block {
+        display: block;
         position: fixed;
-    }
-    nav div ul {
-        display: inline-block;
-        position: absolute;
         text-align: center;
-        justify-content: center;
-        align-items: center;
-        line-height: 45px;
-        margin-top: -15px;
-        padding: 50px 0;
+        width: 100%;
     }
-    nav div img {
-        display: none;
+    .ul-block li:nth-child(2) {
+        margin-top: 60px;
     }
-    nav div ul .fa-shopping-bag {
-        display: none;
+    .ul-block .fa-times{
+        position: absolute;
+        top: 0;
+        right: 5vw;
     }
-    nav div ul .fa-search {
-        display: none;
+    .navbar {
+        width: 100%;
     }
-    nav div ul .fa-bars {
-        display: none;
+    .navbar img {
+        position: absolute;
+        left: 8vw;
+    }
+    .navbar .fa-bars {
+        position: absolute;
+        left: 1vw;
+    }
+    .ul-block li:hover {
+        border: 1px ridge;
+        transition: all 0.3s ease;
+        background-color: darkgrey;
+        text-align: center;
     }
 }
 
@@ -618,7 +621,7 @@ hr {
 }
 .video {
     position: relative;
-    margin-top: 82%;
+    margin-top: 80%;
 }
 .video a img {
     position: absolute;
@@ -897,7 +900,7 @@ hr {
     width: 65%;
     margin-left: 17%;
     left: 200px;
-    margin-top: 100px;
+    top: 100px;
 }
 .PORTOFLIO .port h1 {
     position: absolute;
@@ -984,7 +987,7 @@ hr {
 }
 .center3 {
     position: absolute;
-    top: 80px;
+    top: 70px;
     width: 90%;
     left: 6%;
     text-align: center;
@@ -1003,6 +1006,7 @@ hr {
     position: absolute;
     left: 290px;
     width: 50%;
+    margin-top: 25px;
 }
 .list-rect {
     position: relative;
@@ -1399,7 +1403,7 @@ hr {
     text-align: center;
     width: 57%;
     left: 22%;
-    top: 10vh;
+    top: 8vh;
 }
 .blog div h1 {
     margin-top: 7vh;
@@ -1421,7 +1425,7 @@ hr {
 }
 .blog .blog-cafe {
     position: absolute;
-    top: 40vh;
+    top: 42vh;
 }
 .blog .blog-cafe .cafe {
     position: absolute;
