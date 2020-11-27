@@ -23,12 +23,12 @@ $(document).ready(function(){
   $('.fa-search').click(function(){
     $('search').toggle();
     $('.navbar').css('margin-top',60);
-    $('main').css('margin-top',60);
+    $('purchases').css('margin-top',60);
   });
   $('#times1').click(function(){
     $('search').toggle();
     $('.navbar').css('margin-top',0);
-    $('main').css('margin-top',0);
+    $('purchases').css('margin-top',0);
   });
 });
 $(document).ready(function(){
@@ -36,13 +36,13 @@ $(document).ready(function(){
     $('.ul-block').toggle();
     $('.search').css('width',1159);
     $('.navbar').css('width',500);
-    $('main').css('margin-left',-60);
+    $('purchases').css('left',800);
   });
   $('#times2').click(function(){
     $('.ul-block').toggle();
     $('.search').css('width',1349);
     $('.navbar').css('width',850);
-    $('main').css('margin-left',0);
+    $('purchases').css('left',960);
   });
   
 });
@@ -57,7 +57,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.fa-shopping-bag').click(function(){
-      $('.main').toggle();
+      $('.purchases').toggle();
   });
 });  
   $(document).ready(function(){
