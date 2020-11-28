@@ -300,16 +300,40 @@ nav ul .fa-bars {
     cursor: pointer;
     opacity: .7;
 }
-@media (max-width: 990px) {
+@media (max-width: 580px) {
+    body {
+        width: 583px;
+        background-color: black;
+        background-image: url(image/mac.jpg);
+        background-repeat: no-repeat;
+        background-size: 580px 90vh;
+        background-color: rgb(241, 239, 239);
+    }
     .ul-block {
         display: block;
         position: fixed;
         text-align: center;
-        width: 100%;
+        width: 560px;
+        height: 930px;
+        left: 0;
         z-index: 999;
     }
+    .navbar {
+        position: fixed;
+        top: 20px;
+    }
+    .navbar li {
+        display: none;
+    }
+    .ul-block li {
+        line-height: 100px;
+    }
+    .ul-block li:hover {
+        background-color: darkgrey;
+
+    }
     .ul-block li:nth-child(2) {
-        margin-top: 60px;
+        margin-top: 130px;
     }
     .ul-block .fa-times{
         position: absolute;
@@ -321,15 +345,76 @@ nav ul .fa-bars {
         position: absolute;
         left: 8vw;
     }
-    .navbar .fa-bars {
-        position: absolute;
-        left: 1vw;
+    .navbar .fa-shopping-bag {
+        margin-left: 350px;
     }
+
     .ul-block li:hover {
         border: 1px ridge;
         transition: all 0.3s ease;
         background-color: darkgrey;
         text-align: center;
+    }
+    .search {
+        position: absolute;
+        width: 580px;
+    }
+    .purchases {
+        left: 200px;
+        top: 100px;
+        width: 250px;
+    }
+    .purchases .total {
+        width: 100%;
+    }
+    .purchases .total button {
+        left: 20px;
+        width: 70px;
+    }
+    .purchases .total p {
+        left: 150px;
+    }
+    .side {
+        width: 580px;
+        height: 90vh;
+    }
+    .side .were {
+        width: 100%;
+    }
+    .side .were p {
+        top: -290px;
+        font-size: 40px;
+    }
+    .side .were input {
+        top: -100px;
+    }
+    .aboutus {
+        width: 580px;
+        top: 170px;
+    }
+    .aboutus h1, .aboutus .line, .aboutus .lorem {
+        left: -32px;
+    }
+    .aboutus .lorem {
+        visibility: hidden;
+    }
+    .aboutus .lorem-hidden {
+        left: -30px;
+    }
+    .aboutus #started {
+        left: -30px;
+    }
+    .list {
+        left: -20px;
+    }
+    .design {
+        width: 60px;
+    }
+    .next-about {
+        position: absolute;
+    }
+    .video {
+        top: 300px;
     }
 }
 
@@ -421,6 +506,17 @@ nav ul .fa-bars {
     opacity: .5;
     margin-top: 240px;
 }
+.aboutus .lorem-hidden {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;;
+    width: 44%;
+    font-size: 14px;
+    margin-bottom: 40px;
+    opacity: .5;
+    margin-top: 240px;
+
+}
 #started {
     position: absolute;
     color: #fff;
@@ -468,7 +564,6 @@ nav ul .fa-bars {
     height: 46px;
     outline: none;
     z-index: -1;
-    width: 400px;
     padding-left: 60px;
     border: 1px solid rgb(189, 185, 185);
     background: transparent;
@@ -479,21 +574,25 @@ nav ul .fa-bars {
 .list .design{
     position: absolute;
     margin-top: -54.5px;
+    width: 400px;
 }
 
 .list .team {
     position: absolute;
     margin-top: -55px;
     cursor: pointer;
+    width: 400px;
 
 }
 .list .service {
     position: absolute;
     margin-top: -55px;
+    width: 400px;
 }
 .list .update {
     position: absolute;
     margin-top: -55px;
+    width: 400px;
 }
 .para-lorem1 {
     position: absolute;
@@ -1437,7 +1536,7 @@ hr {
 .blog .blog-cafe .cafe h3 {
     font-family: sans-serif;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 30px;
     color: #333;
     opacity: .8;
 }
@@ -1462,7 +1561,7 @@ hr {
 .blog .blog-cafe .watch h3 {
     font-family: sans-serif;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 30px;
     color: #333;
     opacity: .8;
 }
@@ -1487,7 +1586,7 @@ hr {
 .blog .blog-cafe .pen h3 {
     font-family: sans-serif;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 30px;
     color: #333;
     opacity: .8;
 }
