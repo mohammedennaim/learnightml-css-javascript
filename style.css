@@ -300,53 +300,56 @@ nav ul .fa-bars {
     cursor: pointer;
     opacity: .7;
 }
-@media (max-width: 580px) {
+@media (max-width: 500px) {
     body {
-        width: 583px;
+        width: 420px;
         background-color: black;
         background-image: url(image/mac.jpg);
         background-repeat: no-repeat;
-        background-size: 580px 90vh;
+        background-size: 500px 65vh;
         background-color: rgb(241, 239, 239);
     }
     .ul-block {
         display: block;
         position: fixed;
         text-align: center;
-        width: 560px;
+        width: 400px;
         height: 930px;
-        left: 0;
+        left: -20px;
         z-index: 999;
     }
     .navbar {
         position: fixed;
-        top: 20px;
+        top: 10px;
     }
     .navbar li {
         display: none;
     }
     .ul-block li {
-        line-height: 100px;
+        line-height: 60px;
     }
     .ul-block li:hover {
         background-color: darkgrey;
-
+        height: 60px;
     }
     .ul-block li:nth-child(2) {
-        margin-top: 130px;
+        margin-top: 50px;
     }
     .ul-block .fa-times{
         position: absolute;
-        top: 0;
+        top: -10px;
         right: 10vw;
         z-index: 999;
     }
     .navbar img {
         position: absolute;
-        left: 8vw;
+        top: 10px;
+        left: 4vw;
+        width: 80px;
+        height: 80px;
     }
     .navbar .fa-shopping-bag {
-        margin-left: 350px;
+        margin-left: 270px;
     }
 
     .ul-block li:hover {
@@ -356,15 +359,15 @@ nav ul .fa-bars {
         text-align: center;
     }
     .search {
-        position: absolute;
-        width: 580px;
+        width: 100%;
     }
     .purchases {
-        left: 200px;
-        top: 100px;
+        left: 150px;
+        top: 70px;
         width: 250px;
     }
     .purchases .total {
+        top: 160px;
         width: 100%;
     }
     .purchases .total button {
@@ -375,46 +378,87 @@ nav ul .fa-bars {
         left: 150px;
     }
     .side {
-        width: 580px;
-        height: 90vh;
+        width: 500px;
+        height: 65vh;
     }
-    .side .were {
-        width: 100%;
-    }
+    
     .side .were p {
-        top: -290px;
-        font-size: 40px;
+        top: -370px;
+        font-size: 28px;
     }
     .side .were input {
-        top: -100px;
+        top: -240px;
+    }
+    .side .were .started {
+        left: 0px;
+    }
+    .side .were .download {
+        left: -5px;
     }
     .aboutus {
-        width: 580px;
-        top: 170px;
+        width: 500px;
+        top: 110px;
+        text-align: center;
     }
-    .aboutus h1, .aboutus .line, .aboutus .lorem {
-        left: -32px;
+    .aboutus h1 {
+        left: 72px;
+    }
+    .aboutus .line {
+        left: 100px;
+        width: 20px;
     }
     .aboutus .lorem {
-        visibility: hidden;
+        top: -10px;
+        display: none;
     }
-    .aboutus .lorem-hidden {
-        left: -30px;
+    .lorem-visible {
+        top: -15px;
+        left: -22px;
+        display: block;
     }
     .aboutus #started {
-        left: -30px;
+        top: 30px;
+        left: 70px;
     }
     .list {
-        left: -20px;
+        left: -220px;
+        top: 370px;
     }
-    .design {
-        width: 60px;
+    .rect i {
+        left: 0px;
     }
-    .next-about {
-        position: absolute;
+    .doc1 {
+        top: 100px;
+        width: 420px;
     }
-    .video {
+    .doc1 .cercle {
+        left: 50px;
+    }
+    .doc2 {
         top: 300px;
+        width: 420px;
+        left: -400px;
+    }
+    .doc2 .cercle {
+        left: 50px;
+    }
+    .doc3 {
+        top: 500px;
+        width: 420px;
+        left: -800px;
+    }
+    .doc3 .cercle {
+        left: 50px;
+    }
+    
+    .video {
+        top: 175vh;
+        left: -200px;
+        width: 400px;
+        height: 50px;
+    }
+    .img {
+        top: 900px;
     }
 }
 
@@ -506,16 +550,16 @@ nav ul .fa-bars {
     opacity: .5;
     margin-top: 240px;
 }
-.aboutus .lorem-hidden {
+.lorem-visible {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 22px;;
-    width: 44%;
+    width: 90%;
     font-size: 14px;
     margin-bottom: 40px;
     opacity: .5;
     margin-top: 240px;
-
+    display: none;
 }
 #started {
     position: absolute;
@@ -574,25 +618,25 @@ nav ul .fa-bars {
 .list .design{
     position: absolute;
     margin-top: -54.5px;
-    width: 400px;
+    width: 270px;
 }
 
 .list .team {
     position: absolute;
     margin-top: -55px;
     cursor: pointer;
-    width: 400px;
+    width: 270px;
 
 }
 .list .service {
     position: absolute;
     margin-top: -55px;
-    width: 400px;
+    width: 270px;
 }
 .list .update {
     position: absolute;
     margin-top: -55px;
-    width: 400px;
+    width: 270px;
 }
 .para-lorem1 {
     position: absolute;

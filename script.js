@@ -49,6 +49,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.fa-search').click(function(){
       $('.search').toggle();
+      $('.search').css('width',500)
   });
   $('#times1').click(function(){
     $('.search').toggle();
