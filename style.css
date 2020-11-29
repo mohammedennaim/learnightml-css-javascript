@@ -116,6 +116,9 @@ nav ul i {
     border-top: 5px solid rgb(73, 72, 72);
     display: none;
 }
+.purchases ul {
+    list-style: none;
+}
 .purchases ul li .image1 {
     position: absolute;
     top: 20px;
@@ -306,15 +309,15 @@ nav ul .fa-bars {
         background-color: black;
         background-image: url(image/mac.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 65vh;
+        background-size: 390px 65vh;
         background-color: rgb(241, 239, 239);
     }
     .ul-block {
         display: block;
         position: fixed;
         text-align: center;
-        width: 400px;
-        height: 930px;
+        width: 360px;
+        height: 560px;
         left: -20px;
         z-index: 999;
     }
@@ -333,7 +336,7 @@ nav ul .fa-bars {
         height: 60px;
     }
     .ul-block li:nth-child(2) {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .ul-block .fa-times{
         position: absolute;
@@ -349,7 +352,7 @@ nav ul .fa-bars {
         height: 80px;
     }
     .navbar .fa-shopping-bag {
-        margin-left: 270px;
+        margin-left: 150px;
     }
 
     .ul-block li:hover {
@@ -359,23 +362,116 @@ nav ul .fa-bars {
         text-align: center;
     }
     .search {
-        width: 100%;
+        position: absolute;
+        width: 360px;
     }
     .purchases {
-        left: 150px;
+        left: 90px;
         top: 70px;
-        width: 250px;
+        width: 220px;
+        height: 225px;
+    }
+    .purchases ul li .image1 {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        background-color:rgb(206, 206, 206);
+        cursor: pointer;
+    }
+    .purchases ul li h2 {
+        position: absolute;
+        top: 10px;
+        left: 77px;
+        width: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        color: #333;
+        cursor: pointer;
+    }
+    .purchases ul li p {
+        position: absolute;
+        width: 90%;
+        top: 36px;
+        margin-left: 70px;
+        font-size: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+    .purchases ul li p span {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+        color: #ff6863;
+        font-style: italic;
+        font-size: 16px;
+    }
+    .purchases ul li .image2 {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(206, 206, 206);
+        cursor: pointer;
+    }
+    .purchases ul:nth-last-child(2) li h2 {
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        width: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        color: #333;
+        cursor: pointer;
+    }
+    .purchases ul:nth-last-child(2) li p {
+        position: absolute;
+        width: 90%;
+        top: 172px;
+        margin-left: 70px;
+        font-size: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+    .purchases ul li .image3 {
+        position: absolute;
+        top: 160px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(206, 206, 206);
+        cursor: pointer;
+    }
+    .purchases ul:nth-last-child(3) li h2 {
+        position: absolute;
+        top: 148px;
+        left: 80px;
+        width: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        color: #333;
+        cursor: pointer;
+    }
+    .purchases ul:nth-last-child(3) li p {
+        position: absolute;
+        width: 90%;
+        top: 103px;
+        margin-left: 70px;
+        font-size: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
     }
     .purchases .total {
-        top: 160px;
+        top: 205px;
         width: 100%;
     }
     .purchases .total button {
-        left: 20px;
+        left: 10px;
         width: 70px;
     }
     .purchases .total p {
-        left: 150px;
+        left: 130px;
     }
     .side {
         width: 500px;
@@ -384,27 +480,28 @@ nav ul .fa-bars {
     
     .side .were p {
         top: -370px;
+        left: -10px;
         font-size: 28px;
     }
     .side .were input {
         top: -240px;
     }
     .side .were .started {
-        left: 0px;
+        left: 5px;
     }
     .side .were .download {
-        left: -5px;
+        left: 10px;
     }
     .aboutus {
-        width: 500px;
+        width: 360px;
         top: 110px;
         text-align: center;
     }
     .aboutus h1 {
-        left: 72px;
+        left: 75px;
     }
     .aboutus .line {
-        left: 100px;
+        left: 103px;
         width: 20px;
     }
     .aboutus .lorem {
@@ -413,39 +510,39 @@ nav ul .fa-bars {
     }
     .lorem-visible {
         top: -15px;
-        left: -22px;
-        display: block;
+        left: -12px;
     }
     .aboutus #started {
         top: 30px;
-        left: 70px;
+        left: 75px;
     }
     .list {
-        left: -220px;
-        top: 370px;
+        left: -210px;
+        top: 380px;
     }
     .rect i {
         left: 0px;
     }
     .doc1 {
-        top: 100px;
+        top: 130px;
         width: 420px;
+        left: 25px;
     }
     .doc1 .cercle {
         left: 50px;
     }
     .doc2 {
-        top: 300px;
+        top: 330px;
         width: 420px;
-        left: -400px;
+        left: -375px;
     }
     .doc2 .cercle {
         left: 50px;
     }
     .doc3 {
-        top: 500px;
+        top: 530px;
         width: 420px;
-        left: -800px;
+        left: -775px;
     }
     .doc3 .cercle {
         left: 50px;
@@ -559,7 +656,6 @@ nav ul .fa-bars {
     margin-bottom: 40px;
     opacity: .5;
     margin-top: 240px;
-    display: none;
 }
 #started {
     position: absolute;
