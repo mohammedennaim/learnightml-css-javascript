@@ -23,19 +23,20 @@ body.sticky{
     display: none;
 }
 .search input {
-    width:95%;
+    position: absolute;
+    width: 1307px;
     border-radius: 60px;
     height: 25px;
     margin-top: 18px;
     outline: none;
     padding: 0 40px;
     border: none;
-    margin-left: -20px;
+    left: 20px;
 }
 .search i:nth-child(2) {
     position: absolute;
     color: #333;
-    margin-left: -94%;
+    left: 35px;
     font-size: 15px;
     margin-top: 23px;
     cursor: pointer;
@@ -44,7 +45,7 @@ body.sticky{
 .search i:nth-child(3) {
     position: absolute;
     color: #333;
-    margin-left: -2.5%;
+    right: -810px;
     font-size: 15px;
     margin-top: 23px;
     cursor: pointer;
@@ -76,7 +77,6 @@ nav ul img {
     border-radius: 50%;
     margin-top: -20px;
 }
-
 nav ul {
     position: relative;
     display: flex;
@@ -216,7 +216,7 @@ nav ul i {
 .purchases .total {
     position: relative;
     background-color: rgb(206, 206, 206);
-    top: 27vh;
+    top: 38vh;
     width: 100%;
     height: 60px;
 }
@@ -303,262 +303,6 @@ nav ul .fa-bars {
     cursor: pointer;
     opacity: .7;
 }
-@media (max-width: 500px) {
-    body {
-        width: 420px;
-        background-color: black;
-        background-image: url(image/mac.jpg);
-        background-repeat: no-repeat;
-        background-size: 390px 65vh;
-        background-color: rgb(241, 239, 239);
-    }
-    .ul-block {
-        display: block;
-        position: fixed;
-        text-align: center;
-        width: 360px;
-        height: 560px;
-        left: -20px;
-        z-index: 999;
-    }
-    .navbar {
-        position: fixed;
-        top: 10px;
-    }
-    .navbar li {
-        display: none;
-    }
-    .ul-block li {
-        line-height: 60px;
-    }
-    .ul-block li:hover {
-        background-color: darkgrey;
-        height: 60px;
-    }
-    .ul-block li:nth-child(2) {
-        margin-top: 80px;
-    }
-    .ul-block .fa-times{
-        position: absolute;
-        top: -10px;
-        right: 10vw;
-        z-index: 999;
-    }
-    .navbar img {
-        position: absolute;
-        top: 10px;
-        left: 4vw;
-        width: 80px;
-        height: 80px;
-    }
-    .navbar .fa-shopping-bag {
-        margin-left: 150px;
-    }
-
-    .ul-block li:hover {
-        border: 1px ridge;
-        transition: all 0.3s ease;
-        background-color: darkgrey;
-        text-align: center;
-    }
-    .search {
-        position: absolute;
-        width: 360px;
-    }
-    .purchases {
-        left: 90px;
-        top: 70px;
-        width: 220px;
-        height: 225px;
-    }
-    .purchases ul li .image1 {
-        position: absolute;
-        top: 20px;
-        left: 10px;
-        width: 50px;
-        height: 50px;
-        background-color:rgb(206, 206, 206);
-        cursor: pointer;
-    }
-    .purchases ul li h2 {
-        position: absolute;
-        top: 10px;
-        left: 77px;
-        width: 100%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 17px;
-        color: #333;
-        cursor: pointer;
-    }
-    .purchases ul li p {
-        position: absolute;
-        width: 90%;
-        top: 36px;
-        margin-left: 70px;
-        font-size: 14px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 500;
-    }
-    .purchases ul li p span {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 900;
-        color: #ff6863;
-        font-style: italic;
-        font-size: 16px;
-    }
-    .purchases ul li .image2 {
-        position: absolute;
-        top: 90px;
-        left: 10px;
-        width: 50px;
-        height: 50px;
-        background-color: rgb(206, 206, 206);
-        cursor: pointer;
-    }
-    .purchases ul:nth-last-child(2) li h2 {
-        position: absolute;
-        top: 80px;
-        left: 80px;
-        width: 100%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 17px;
-        color: #333;
-        cursor: pointer;
-    }
-    .purchases ul:nth-last-child(2) li p {
-        position: absolute;
-        width: 90%;
-        top: 172px;
-        margin-left: 70px;
-        font-size: 14px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 500;
-    }
-    .purchases ul li .image3 {
-        position: absolute;
-        top: 160px;
-        left: 10px;
-        width: 50px;
-        height: 50px;
-        background-color: rgb(206, 206, 206);
-        cursor: pointer;
-    }
-    .purchases ul:nth-last-child(3) li h2 {
-        position: absolute;
-        top: 148px;
-        left: 80px;
-        width: 100%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 17px;
-        color: #333;
-        cursor: pointer;
-    }
-    .purchases ul:nth-last-child(3) li p {
-        position: absolute;
-        width: 90%;
-        top: 103px;
-        margin-left: 70px;
-        font-size: 14px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 500;
-    }
-    .purchases .total {
-        top: 205px;
-        width: 100%;
-    }
-    .purchases .total button {
-        left: 10px;
-        width: 70px;
-    }
-    .purchases .total p {
-        left: 130px;
-    }
-    .side {
-        width: 500px;
-        height: 65vh;
-    }
-    
-    .side .were p {
-        top: -370px;
-        left: -10px;
-        font-size: 28px;
-    }
-    .side .were input {
-        top: -240px;
-    }
-    .side .were .started {
-        left: 5px;
-    }
-    .side .were .download {
-        left: 10px;
-    }
-    .aboutus {
-        width: 360px;
-        top: 110px;
-        text-align: center;
-    }
-    .aboutus h1 {
-        left: 75px;
-    }
-    .aboutus .line {
-        left: 103px;
-        width: 20px;
-    }
-    .aboutus .lorem {
-        top: -10px;
-        display: none;
-    }
-    .lorem-visible {
-        top: -15px;
-        left: -12px;
-    }
-    .aboutus #started {
-        top: 30px;
-        left: 75px;
-    }
-    .list {
-        left: -210px;
-        top: 380px;
-    }
-    .rect i {
-        left: 0px;
-    }
-    .doc1 {
-        top: 130px;
-        width: 420px;
-        left: 25px;
-    }
-    .doc1 .cercle {
-        left: 50px;
-    }
-    .doc2 {
-        top: 330px;
-        width: 420px;
-        left: -375px;
-    }
-    .doc2 .cercle {
-        left: 50px;
-    }
-    .doc3 {
-        top: 530px;
-        width: 420px;
-        left: -775px;
-    }
-    .doc3 .cercle {
-        left: 50px;
-    }
-    
-    .video {
-        top: 175vh;
-        left: -200px;
-        width: 400px;
-        height: 50px;
-    }
-    .img {
-        top: 900px;
-    }
-}
-
 .side {
     position: relative;
     height: 100vh;
@@ -894,7 +638,7 @@ hr {
 .img {
     position: relative;
     display: flex;
-    margin-top: 139%;
+    margin-top: 135%;
     min-width: 100%;
     margin-left: -12.5%;
     overflow: hidden;
@@ -1216,10 +960,298 @@ hr {
     opacity: 0.8;
     transform: rotate(1deg);
 }
+.our-skill{
+    position: relative;
+    padding-left: 90px;
+    top: 210vh;
+    width: 1255px;
+    left: 0;
+}
+.tit-ski{
+    position: absolute;
+    font-size: 2.1rem;
+    line-height: 3rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+.our-skill hr{
+    margin-top: 40px;
+    border: 1px solid red;
+}
+.our-skill p{
+
+    margin-top: 30px;
+    line-height: 1.4rem;
+    font-size: 14px;
+    font-weight: normal;
+    font-family:sans-serif;
+    color: #797979;
+
+}
+.titre1{
+    position: absolute;
+    left: 683px;
+    top: 15px;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress1{
+    position: relative;
+    left: 47%;
+    background-color: #e0dfdf;
+    height: 10px;
+    width: 600px;
+    top: -180px;
+}
+.prog1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: #ff6863;
+    height: 100%;
+    animation-name: example1;
+    animation-duration: 6s;
+}
+
+.titre2{
+    position: absolute;
+    left: 683px;
+    top: 85px;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress2{
+    position: relative;
+    left: 47%;
+    background-color: #e0dfdf;
+    height: 10px;
+    width: 600px;
+    top: -120px;
+}
+.prog2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background-color: #ff6863;
+    height: 100%;
+    animation-name: example2;
+    animation-duration: 5s;
+}
+.titre3{
+    position: absolute;
+    left: 683px;
+    top: 155px;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress3{
+    position: relative;
+    left: 47%;
+    background-color: #e0dfdf;
+    height: 10px;
+    width: 600px;
+    top: -60px;
+    
+}
+.prog3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 86%;
+    background-color: #ff6863;
+    height: 100%;
+    animation-name: example3;
+    animation-duration: 4s;
+}
+@keyframes example1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes example2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes example3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 86%;
+    }
+}
+
+.lin2{
+    width: 100%;
+    opacity: 0.2;
+}
+.numero{
+    position: relative;
+    top: 215vh;
+    width: 100%;
+    height: 100px;
+    left: 0;
+}
+.numero ul:nth-child(1) {
+    position: absolute;
+    text-align: center;
+    left: 150px;
+    width: 110px;
+}
+.numero ul:nth-child(1) li {
+    display: block;
+}
+.numero ul:nth-child(1) li h2 {
+    position: absolute;   
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 35px;
+    left: 10px;
+}
+.numero ul:nth-child(1) li div {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 30px;
+    height: 3px;
+    background-color: peru;
+    outline: none;
+    border: none;
+}
+.numero ul:nth-child(1) li h5 {
+    position: absolute;
+    top: 90px;
+    left: -23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    width: 100%;
+}
+.numero ul:nth-child(2) {
+    position: absolute;
+    text-align: center;
+    left: 460px;
+    width: 110px;
+}
+.numero ul:nth-child(2) li {
+    display: block;
+}
+.numero ul:nth-child(2) li h2 {
+    position: absolute;   
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 35px;
+    left: 10px;
+}
+.numero ul:nth-child(2) li div {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 30px;
+    height: 3px;
+    background-color: peru;
+    outline: none;
+    border: none;
+}
+.numero ul:nth-child(2) li h5 {
+    position: absolute;
+    top: 90px;
+    left: -23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    width: 100%;
+}
+.numero ul:nth-child(3) {
+    position: absolute;
+    text-align: center;
+    left: 780px;
+    width: 110px;
+}
+.numero ul:nth-child(3) li {
+    display: block;
+}
+.numero ul:nth-child(3) li h2 {
+    position: absolute;   
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 35px;
+    left: 10px;
+}
+.numero ul:nth-child(3) li div {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 30px;
+    height: 3px;
+    background-color: peru;
+    outline: none;
+    border: none;
+}
+.numero ul:nth-child(3) li h5 {
+    position: absolute;
+    top: 90px;
+    left: -23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    width: 100%;
+}
+.numero ul:nth-child(4) {
+    position: absolute;
+    text-align: center;
+    left: 1070px;
+    width: 110px;
+}
+.numero ul:nth-child(4) li {
+    display: block;
+}
+.numero ul:nth-child(4) li h2 {
+    position: absolute;   
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 35px;
+    left: 10px;
+}
+.numero ul:nth-child(4) li div {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 30px;
+    height: 3px;
+    background-color: peru;
+    outline: none;
+    border: none;
+}
+.numero ul:nth-child(4) li h5 {
+    position: absolute;
+    top: 90px;
+    left: -23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    width: 100%;
+}
 .Pricing{
     position: relative;
     text-align: center;
-    top: 200vh;
+    top: 230vh;
 }
 .center3 {
     position: absolute;
@@ -1628,7 +1660,7 @@ hr {
 }
 .blog {
     position: relative;
-    top: 315vh;
+    top: 340vh;
     background-color: #fff;
     width: 100%;
     height: 110vh;
@@ -1739,10 +1771,10 @@ hr {
 }
 .contact {
     position: relative;
-    margin-top: 310vh;
+    margin-top: 335vh;
     width: 100%;
-    height: 100vh;
-    background: rgba(134, 134, 134, 0.856);
+    height: 70vh;
+    background: rgba(212, 212, 212, 0.856);
 }
 .contact .rage {
     position: absolute;
@@ -1754,7 +1786,12 @@ hr {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     left: 5vw;
-
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #333;
 }
 .contact .rage .line6 {
     position: absolute;
@@ -1773,7 +1810,7 @@ hr {
     position: absolute;
     list-style: none;
     display: flex;
-    top: 40vh;
+    top: 45vh;
 }
 .contact .rage ul li {
     margin-left: 30px;

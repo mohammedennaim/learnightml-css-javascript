@@ -50,6 +50,7 @@ $(document).ready(function(){
   $('.fa-search').click(function(){
       $('.search').toggle();
       $('.search').css('width',500)
+      
   });
   $('#times1').click(function(){
     $('.search').toggle();
@@ -119,5 +120,3 @@ $(document).ready(function(){
     $(this).parent().addClass("active");
     $(this).addClass("active");
 });
-  
-  

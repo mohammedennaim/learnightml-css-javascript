@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="image/CIRCLE.png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
     <title>ENNAIM</title>
 </head>
 <body>
@@ -74,7 +78,6 @@
             <h1>ABOUT US</h1>
             <div class="line"></div>
             <p class="lorem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <p class="lorem-visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
             <input type="button" value="DOWNLOAD NOW" id="started">
             <div class="list" id="myDIV">
                 <input type="checkbox" name="button1" id="para1">
@@ -125,7 +128,7 @@
                     <p class="ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing ealit, sed diaim nonummy nibsih euismod tincidiunt laorieet doloire magna diam aliquafm erat voluitpati.</p>
                 </div>
             </div>
-            <!--<div class="video">
+            <div class="video">
                 <a href="#"><img src="image/naturel.jpg" alt=""></a>
             </div>
             <div class="center1">
@@ -202,7 +205,41 @@
                 <img src="image/6.jpg" alt="">
                 
             </div>
-           
+            <div class="our-skill">
+                <h2 class="tit-ski">OUR SKILLS</h2>
+                <br>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<br> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<br> minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex<br> ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat<br> volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper<br> suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                <h6 class="titre1">WEBSITE</h6>
+                <div class="progress1"><div class="prog1"></div></div>
+                <h6 class="titre2">BASE DE DONNEE</h6>
+                <div class="progress2"><div class="prog2"></div></div>
+                <h6 class="titre3">SOFTWARE</h6>
+                <div class="progress3"><div class="prog3"></div></div>
+            </div>
+            <hr class="lin2">
+            <div class="numero">
+                <ul>
+                    <li><h2 class="number">3450</h2></li>
+                    <li><div></div></li>
+                    <li><h5>Projects Finished</h5></li>
+                </ul>
+                <ul>
+                    <li><h2 class="number">3450</h2></li>
+                    <li><div></div></li>
+                    <li><h5>Happy Clients</h5></li>
+                </ul>
+                <ul>
+                    <li><h2 class="number">3450</h2></li>
+                    <li><div></div></li>
+                    <li><h5>Hours of work</h5></li>
+                </ul>
+                <ul>
+                    <li><h2 class="number">3450</h2></li>
+                    <li><div></div></li>
+                    <li><h5>Cup of coffee</h5></li>
+                </ul>
+            </div>
         </div>
         <div class="Pricing" id="Pricing">
             <div class="center3">
@@ -300,31 +337,38 @@
                 </div>
             </div>
         </div>
-            <div class="contact" id="Contact">
-                <div class="rage">
-                    <h1>RAGE</h1>
-                    <div class="line6"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    <ul>
-                        <li><i class="fab fa-facebook-square"></i></li>
-                        <li><i class="fab fa-twitter-square"></i></li>
-                        <li><i class="fab fa-linkedin"></i></li>
-                        <li><i class="fab fa-vimeo-square"></i></li>
-                        <li><i class="fab fa-instagram-square"></i></li>
-                    </ul>
-                </div>
-                <div class="input">
-                    <input type="text" name="" id="">
-                    <input type="tel" name="" id="">
-                    <input type="email" name="" id="">
-                    <input type="text" name="" id="">
-                    <button type="submit">SEND MESSAGE</button>
-                </div>
+        <div class="contact" id="Contact">
+            <div class="rage">
+                <h1>RAGE</h1>
+                <div class="line6"></div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-vimeo-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                </ul>
             </div>
-        </div>-->
+            <div class="input">
+                <input type="text" name="" id="">
+                <input type="tel" name="" id="">
+                <input type="email" name="" id="">
+                <input type="text" name="" id="">
+                <button type="submit">SEND MESSAGE</button>
+            </div>
+            <footer>
+            </footer>
+        </div>
     </div>
 
 
 <script src="script.js"></script>
+<script>
+    $(".number").counterUp({
+    delay:10,
+    time:1000
+    });
+</script>
 </body>
 </html>
